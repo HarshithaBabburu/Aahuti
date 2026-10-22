@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+  <!-- Aahuti Sacred Offering Favicon -->
+  <rect width="64" height="64" rx="16" fill="#4A0717"/>
+  <!-- Sacred Diya / Kalash base -->
+  <path d="M16 40C16 46 23 49 32 49C41 49 48 46 48 40C48 38 45 37 32 37C19 37 16 38 16 40Z" fill="#FFF8F0"/>
+  <path d="M26 49L24 53H40L38 49H26Z" fill="#E8D7DA"/>
+  <!-- Sacred Flame / Offering Agni -->
+  <path d="M32 15C32 15 39 24 39 30C39 34 35.8 37 32 37C28.2 37 25 34 25 30C25 24 32 15 32 15Z" fill="#C87A1E"/>
+  <!-- Inner Flame Core -->
+  <path d="M32 22C32 22 36 27 36 31C36 33.5 34.2 35.5 32 35.5C29.8 35.5 28 33.5 28 31C28 27 32 22 32 22Z" fill="#FFF8F0"/>
+</svg>

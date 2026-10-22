@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Savora-Inspired Global Design Tokens */
+  --color-background: #F3EEE4;
+  --color-surface: #FFFFFF;
+  --color-ink: #171914;
+  --color-olive: #74785B;
+  --color-olive-hover: #5F634A;
+  --color-sandstone: #D8CDBA;
+  --color-sandstone-soft: #E8E2D5;
+  --color-terracotta: #A65F43;
+  --color-text: #171914;
+  --color-text-muted: #5D6057;
+  --color-border: #D8CDBA;
+  --color-success: #28734D;
+  --color-warning: #B7791F;
+  --color-error: #B33A32;
+
+  --font-serif: 'Playfair Display', Georgia, serif;
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-background);
+  color: var(--color-text);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, .font-serif, .font-display {
+  font-family: var(--font-serif);
+  letter-spacing: -0.015em;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F3EEE4;
+}
+::-webkit-scrollbar-thumb {
+  background: #D8CDBA;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #74785B;
+}
+
+/* Editorial Glass Header */
+.glass-nav {
+  background: rgba(243, 238, 228, 0.94);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+}
+
+/* Clean Card & Transitions */
+.card-hover {
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.25s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.25s ease;
+}
+
+/* Subtle organic pill rotation */
+@keyframes spin-slow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 24s linear infinite;
+}

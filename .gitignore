@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+# *.db (Preserved so pre-seeded SQLite database is committed and deployed)
+*.sqlite3
+
+# Node
+node_modules/
+dist/
+.next/
+
+# Misc
+.DS_Store
+*.zip

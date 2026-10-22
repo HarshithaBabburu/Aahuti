@@ -1,0 +1,14 @@
+{
+  "name": "aahuti-fullstack",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Aahuti — AI-Powered Food Rescue (Fullstack FastAPI + Vite React)",
+  "scripts": {
+    "install:frontend": "npm --prefix frontend install",
+    "build:frontend": "npm --prefix frontend run build",
+    "build": "npm --prefix frontend install && npm --prefix frontend run build",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "dev:backend": "cd backend && uvicorn app.main:app --reload",
+    "test:backend": "cd backend && pytest"
+  }
+}
